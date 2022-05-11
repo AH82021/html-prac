@@ -11,3 +11,35 @@ form {
   box-shadow: 2px 1px 5px -1px darkred;
   transform: translate(-50%, -50%);
 }
+label {
+  font-family: sans-serif;
+  letter-spacing:6px ;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  color:gold;
+}
+
+input[type=text] {
+  display: inline-block;
+  border: none;
+  padding: 10px;
+  margin: 10px 0;
+  background: transparent;
+  color:#fff;
+  box-shadow: 3px 2px rgba(121, 83, 210,.3 );
+}
+
+button {
+  background-color: cadetblue;
+  color:#fff;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  padding: 10px 30px;
+  border-radius: 8px;
+  letter-spacing: 3px;
+}
+
+button:hover{
+  background:gainsboro ;
+  border: 2px solid rgba(69,39, 160,.4 );
+}
